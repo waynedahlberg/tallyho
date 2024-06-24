@@ -11,6 +11,8 @@
 		B0737B1B2C29148600E51F96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737B1A2C29148600E51F96 /* ContentView.swift */; };
 		B0737B1D2C29148700E51F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0737B1C2C29148700E51F96 /* Assets.xcassets */; };
 		B0737B202C29148700E51F96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0737B1F2C29148700E51F96 /* Preview Assets.xcassets */; };
+		B0737B272C2914A900E51F96 /* CounterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737B262C2914A900E51F96 /* CounterManager.swift */; };
+		B0737B292C29175800E51F96 /* VolumeButtonObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737B282C29175800E51F96 /* VolumeButtonObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B0737B1A2C29148600E51F96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0737B1C2C29148700E51F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0737B1F2C29148700E51F96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0737B262C2914A900E51F96 /* CounterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterManager.swift; sourceTree = "<group>"; };
+		B0737B282C29175800E51F96 /* VolumeButtonObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeButtonObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B0737B182C29148600E51F96 /* TallyHoApp.swift */,
 				B0737B1A2C29148600E51F96 /* ContentView.swift */,
+				B0737B282C29175800E51F96 /* VolumeButtonObserver.swift */,
+				B0737B262C2914A900E51F96 /* CounterManager.swift */,
 				B0737B1C2C29148700E51F96 /* Assets.xcassets */,
 				B0737B1E2C29148700E51F96 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0737B272C2914A900E51F96 /* CounterManager.swift in Sources */,
+				B0737B292C29175800E51F96 /* VolumeButtonObserver.swift in Sources */,
 				B0737B1B2C29148600E51F96 /* ContentView.swift in Sources */,
 				B0737B192C29148600E51F96 /* TallyHoApp.swift in Sources */,
 			);
